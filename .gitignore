@@ -1,0 +1,17 @@
+
+*.mxo
+
+*.mxe
+
+*.mxe64
+
+*.mode1v3
+
+*.pbxuser
+
+*.perspectivev3
+
+project.xcworkspace
+
+*.xcuserdatad
+*.user
