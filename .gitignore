@@ -14,4 +14,7 @@
 project.xcworkspace
 
 *.xcuserdatad
+
 *.user
+
+build

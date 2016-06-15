@@ -33,8 +33,6 @@
 		B21085631A0224980054DEAF /* LibExport.h in Headers */ = {isa = PBXBuildFile; fileRef = B210853C1A0224980054DEAF /* LibExport.h */; };
 		B21085641A0224980054DEAF /* OscReceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B210853D1A0224980054DEAF /* OscReceiver.cpp */; };
 		B21085651A0224980054DEAF /* OscReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = B210853E1A0224980054DEAF /* OscReceiver.h */; };
-		B21085661A0224980054DEAF /* OscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B210853F1A0224980054DEAF /* OscSender.cpp */; };
-		B21085671A0224980054DEAF /* OscSender.h in Headers */ = {isa = PBXBuildFile; fileRef = B21085401A0224980054DEAF /* OscSender.h */; };
 		B21085681A0224980054DEAF /* TcpReceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21085411A0224980054DEAF /* TcpReceiver.cpp */; };
 		B21085691A0224980054DEAF /* TcpReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = B21085421A0224980054DEAF /* TcpReceiver.h */; };
 		B210856C1A0224980054DEAF /* TuioBlob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21085451A0224980054DEAF /* TuioBlob.cpp */; };
@@ -56,8 +54,8 @@
 		B21085801A0224980054DEAF /* TuioTime.h in Headers */ = {isa = PBXBuildFile; fileRef = B21085591A0224980054DEAF /* TuioTime.h */; };
 		B21085811A0224980054DEAF /* UdpReceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B210855A1A0224980054DEAF /* UdpReceiver.cpp */; };
 		B21085821A0224980054DEAF /* UdpReceiver.h in Headers */ = {isa = PBXBuildFile; fileRef = B210855B1A0224980054DEAF /* UdpReceiver.h */; };
-		B21085831A0224980054DEAF /* UdpSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B210855C1A0224980054DEAF /* UdpSender.cpp */; };
-		B21085841A0224980054DEAF /* UdpSender.h in Headers */ = {isa = PBXBuildFile; fileRef = B210855D1A0224980054DEAF /* UdpSender.h */; };
+		B2803A541D1152C000048C12 /* OneEuroFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2803A521D1152C000048C12 /* OneEuroFilter.cpp */; };
+		B2803A551D1152C000048C12 /* OneEuroFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B2803A531D1152C000048C12 /* OneEuroFilter.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,8 +86,6 @@
 		B210853C1A0224980054DEAF /* LibExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibExport.h; sourceTree = "<group>"; };
 		B210853D1A0224980054DEAF /* OscReceiver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscReceiver.cpp; sourceTree = "<group>"; };
 		B210853E1A0224980054DEAF /* OscReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscReceiver.h; sourceTree = "<group>"; };
-		B210853F1A0224980054DEAF /* OscSender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OscSender.cpp; sourceTree = "<group>"; };
-		B21085401A0224980054DEAF /* OscSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscSender.h; sourceTree = "<group>"; };
 		B21085411A0224980054DEAF /* TcpReceiver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TcpReceiver.cpp; sourceTree = "<group>"; };
 		B21085421A0224980054DEAF /* TcpReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcpReceiver.h; sourceTree = "<group>"; };
 		B21085451A0224980054DEAF /* TuioBlob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TuioBlob.cpp; sourceTree = "<group>"; };
@@ -111,9 +107,9 @@
 		B21085591A0224980054DEAF /* TuioTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioTime.h; sourceTree = "<group>"; };
 		B210855A1A0224980054DEAF /* UdpReceiver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UdpReceiver.cpp; sourceTree = "<group>"; };
 		B210855B1A0224980054DEAF /* UdpReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpReceiver.h; sourceTree = "<group>"; };
-		B210855C1A0224980054DEAF /* UdpSender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UdpSender.cpp; sourceTree = "<group>"; };
-		B210855D1A0224980054DEAF /* UdpSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpSender.h; sourceTree = "<group>"; };
 		B215F1AE1A02431400FB30D1 /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = maxmspsdk.xcconfig; sourceTree = "<group>"; };
+		B2803A521D1152C000048C12 /* OneEuroFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OneEuroFilter.cpp; sourceTree = "<group>"; };
+		B2803A531D1152C000048C12 /* OneEuroFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneEuroFilter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,12 +200,6 @@
 			isa = PBXGroup;
 			children = (
 				B210853C1A0224980054DEAF /* LibExport.h */,
-				B210853D1A0224980054DEAF /* OscReceiver.cpp */,
-				B210853E1A0224980054DEAF /* OscReceiver.h */,
-				B210853F1A0224980054DEAF /* OscSender.cpp */,
-				B21085401A0224980054DEAF /* OscSender.h */,
-				B21085411A0224980054DEAF /* TcpReceiver.cpp */,
-				B21085421A0224980054DEAF /* TcpReceiver.h */,
 				B21085451A0224980054DEAF /* TuioBlob.cpp */,
 				B21085461A0224980054DEAF /* TuioBlob.h */,
 				B21085471A0224980054DEAF /* TuioClient.cpp */,
@@ -227,10 +217,14 @@
 				B21085551A0224980054DEAF /* TuioPoint.h */,
 				B21085581A0224980054DEAF /* TuioTime.cpp */,
 				B21085591A0224980054DEAF /* TuioTime.h */,
+				B210853D1A0224980054DEAF /* OscReceiver.cpp */,
+				B210853E1A0224980054DEAF /* OscReceiver.h */,
 				B210855A1A0224980054DEAF /* UdpReceiver.cpp */,
 				B210855B1A0224980054DEAF /* UdpReceiver.h */,
-				B210855C1A0224980054DEAF /* UdpSender.cpp */,
-				B210855D1A0224980054DEAF /* UdpSender.h */,
+				B21085411A0224980054DEAF /* TcpReceiver.cpp */,
+				B21085421A0224980054DEAF /* TcpReceiver.h */,
+				B2803A521D1152C000048C12 /* OneEuroFilter.cpp */,
+				B2803A531D1152C000048C12 /* OneEuroFilter.h */,
 			);
 			path = TUIO;
 			sourceTree = "<group>";
@@ -244,11 +238,9 @@
 			files = (
 				B210852D1A02248C0054DEAF /* OscPacketListener.h in Headers */,
 				B21085291A02248C0054DEAF /* OscException.h in Headers */,
-				B21085671A0224980054DEAF /* OscSender.h in Headers */,
 				B210852F1A02248C0054DEAF /* OscPrintReceivedElements.h in Headers */,
 				B21085201A02248C0054DEAF /* PacketListener.h in Headers */,
 				B21085231A02248C0054DEAF /* TimerListener.h in Headers */,
-				B21085841A0224980054DEAF /* UdpSender.h in Headers */,
 				B210851F1A02248C0054DEAF /* NetworkingUtils.h in Headers */,
 				B21085631A0224980054DEAF /* LibExport.h in Headers */,
 				B21085751A0224980054DEAF /* TuioDispatcher.h in Headers */,
@@ -264,6 +256,7 @@
 				B210856D1A0224980054DEAF /* TuioBlob.h in Headers */,
 				B21085711A0224980054DEAF /* TuioContainer.h in Headers */,
 				B21085761A0224980054DEAF /* TuioListener.h in Headers */,
+				B2803A551D1152C000048C12 /* OneEuroFilter.h in Headers */,
 				B21085691A0224980054DEAF /* TcpReceiver.h in Headers */,
 				B210851E1A02248C0054DEAF /* IpEndpointName.h in Headers */,
 				B210852A1A02248C0054DEAF /* OscHostEndianness.h in Headers */,
@@ -302,7 +295,7 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 			};
 			buildConfigurationList = 2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "TuioClient" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -350,11 +343,9 @@
 				B21085321A02248C0054DEAF /* OscTypes.cpp in Sources */,
 				B21085701A0224980054DEAF /* TuioContainer.cpp in Sources */,
 				B21084FB1A0224790054DEAF /* TuioWrapper.cpp in Sources */,
-				B21085661A0224980054DEAF /* OscSender.cpp in Sources */,
 				B21085721A0224980054DEAF /* TuioCursor.cpp in Sources */,
 				B21085301A02248C0054DEAF /* OscReceivedElements.cpp in Sources */,
 				B21085791A0224980054DEAF /* TuioObject.cpp in Sources */,
-				B21085831A0224980054DEAF /* UdpSender.cpp in Sources */,
 				B21085211A02248C0054DEAF /* NetworkingUtils.cpp in Sources */,
 				B210851D1A02248C0054DEAF /* IpEndpointName.cpp in Sources */,
 				B21085811A0224980054DEAF /* UdpReceiver.cpp in Sources */,
@@ -362,6 +353,7 @@
 				B210852E1A02248C0054DEAF /* OscPrintReceivedElements.cpp in Sources */,
 				B21085641A0224980054DEAF /* OscReceiver.cpp in Sources */,
 				B21085681A0224980054DEAF /* TcpReceiver.cpp in Sources */,
+				B2803A541D1152C000048C12 /* OneEuroFilter.cpp in Sources */,
 				B21085741A0224980054DEAF /* TuioDispatcher.cpp in Sources */,
 				B210852B1A02248C0054DEAF /* OscOutboundPacketStream.cpp in Sources */,
 				B21084FA1A0224790054DEAF /* TuioMaxMSP.cpp in Sources */,

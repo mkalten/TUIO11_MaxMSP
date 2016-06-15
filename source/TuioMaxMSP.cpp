@@ -1,6 +1,6 @@
 /*
  TUIO Max/MSP External - part of the reacTIVision project
- Copyright (c) 2005-2014 Martin Kaltenbrunner <martin@tuio.org>
+ Copyright (c) 2005-2016 Martin Kaltenbrunner <martin@tuio.org>
  
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -106,7 +106,7 @@ void *tuioclient_new(t_symbol *s, long argc, t_atom *argv)
             wrapper->start();
             if (wrapper->isRunning()) {
                 TuioClientList.push_back(wrapper);
-                post("TuioClient: started listening to UDP port %d",x->port);
+                post("TuioClient: started listening to TUIO/UDP messages on port %d",x->port);
             } else {
                 delete wrapper;
                 post("TuioClient: could not bind to UDP port %d",x->port);

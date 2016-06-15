@@ -1,6 +1,6 @@
 /*
  TUIO C++ Library
- Copyright (c) 2005-2014 Martin Kaltenbrunner <martin@tuio.org>
+ Copyright (c) 2005-2016 Martin Kaltenbrunner <martin@tuio.org>
  
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -43,7 +43,7 @@ UdpReceiver::UdpReceiver(int port):locked (false) {
 		if (!socket->IsBound()) {
 			delete socket;
 			socket = NULL;
-		} else std::cout << "listening to TUIO/UDP messages on port " << port << std::endl;
+		} //else std::cout << "listening to TUIO/UDP messages on port " << port << std::endl;
 	}
 }
 
