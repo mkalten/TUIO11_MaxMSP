@@ -16,7 +16,9 @@ an optional argument. The default TUIO port is 3333.
 
 There are two outputs, the first one is sending all relevant
 TUIO events such as addObject, updateObject and removeObject
-as well as addCursor, updateCursor and removeCursor.
+as well as addCursor, updateCursor and removeCursor and
+addBlob, updateBlob and removeBlob.
+
 The second output sends simple bangs for each fully received
 frame, and every second while no new messages are received, 
 in order to indicate that the connection is still alive.
